@@ -2,12 +2,12 @@
 
 Shuffles the lines of the input
 
-e.g. `ls | dorian-shuffle`
+e.g. `ls | shuffle`
 
 ### Install
 
 ```bash
-gem install dorian-suffle
+gem install dorian-shuffle
 ```
 
 Or as part of my other gems:
@@ -21,6 +21,6 @@ gem install dorian
 From my history:
 
 ```bash
-cat ~/ping-pong-members.txt | dorian-shuffle
-printf 'Dorian\nMadiha\nRémi\nRayane\nMélanie\nJade' | dorian-shuffle
+cat ~/ping-pong-members.txt | shuffle
+printf 'Dorian\nMadiha\nRémi\nRayane\nMélanie\nJade' | shuffle
 ```
