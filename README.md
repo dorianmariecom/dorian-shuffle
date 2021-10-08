@@ -21,6 +21,6 @@ gem install dorian
 From my history:
 
 ```bash
-cat ~/ping-pong-members.txt | ruby-shuffle
-printf 'Dorian\nMadiha\nRémi\nRayane\nMélanie\nJade' | ruby-shuffle
+cat ~/ping-pong-members.txt | dorian-shuffle
+printf 'Dorian\nMadiha\nRémi\nRayane\nMélanie\nJade' | dorian-shuffle
 ```
