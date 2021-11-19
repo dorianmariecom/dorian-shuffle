@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "dorian-shuffle"
-  s.version = "0.1.3"
+  s.version = "0.2.0"
   s.summary = "Shuffles the lines of the input"
   s.description = s.summary + "\n\n" + "e.g. `ls | shuffle`"
   s.authors = ["Dorian Marié"]
@@ -9,4 +9,5 @@ Gem::Specification.new do |s|
   s.executables << "shuffle"
   s.homepage = "https://github.com/dorianmariefr/shuffle"
   s.license = "MIT"
+  s.metadata = { "rubygems_mfa_required" => "true" }
 end
