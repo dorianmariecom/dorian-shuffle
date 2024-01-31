@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 Gem::Specification.new do |s|
   s.name = "dorian-shuffle"
   s.version = "0.2.0"
   s.summary = "Shuffles the lines of the input"
-  s.description = s.summary + "\n\n" + "e.g. `ls | shuffle`"
+  s.description = "#{s.summary}\n\ne.g. `ls | shuffle`"
   s.authors = ["Dorian Marié"]
   s.email = "dorian@dorianmarie.fr"
   s.files = ["lib/dorian/shuffle.rb"]

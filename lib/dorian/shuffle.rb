@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Dorian
   class Shuffle
     def self.run
@@ -6,7 +8,7 @@ module Dorian
         exit
       end
 
-      puts STDIN.each_line.to_a.shuffle
+      puts $stdin.each_line.to_a.shuffle
     end
   end
 end
