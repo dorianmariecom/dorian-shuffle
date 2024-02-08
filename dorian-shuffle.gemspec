@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email = "dorian@dorianmarie.fr"
   s.files = ["lib/dorian/shuffle.rb"]
   s.executables << "shuffle"
-  s.homepage = "https://github.com/dorianmariefr/shuffle"
+  s.homepage = "https://github.com/dorianmariecom/shuffle"
   s.license = "MIT"
   s.metadata = { "rubygems_mfa_required" => "true" }
 end
