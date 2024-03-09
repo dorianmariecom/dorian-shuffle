@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.summary = "Shuffles the lines of the input"
   s.description = "#{s.summary}\n\ne.g. `ls | shuffle`"
   s.authors = ["Dorian Marié"]
-  s.email = "dorian@dorianmarie.fr"
+  s.email = "dorian@dorianmarie.com"
   s.files = ["lib/dorian/shuffle.rb"]
   s.executables << "shuffle"
   s.homepage = "https://github.com/dorianmariecom/shuffle"
