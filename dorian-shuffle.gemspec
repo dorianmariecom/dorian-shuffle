@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = "dorian-shuffle"
-  s.version = "0.4.2"
+  s.version = "0.4.3"
   s.summary = "Shuffles the lines of the input"
   s.description = "#{s.summary}\n\ne.g. `ls | shuffle`"
   s.authors = ["Dorian Marié"]
