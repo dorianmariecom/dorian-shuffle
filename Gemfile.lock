@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    dorian-shuffle (0.4.3)
+    dorian-shuffle (0.5.0)
 
 GEM
   remote: https://rubygems.org/
