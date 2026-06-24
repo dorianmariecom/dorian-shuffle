@@ -1,26 +1,35 @@
 # `dorian-shuffle`
 
-Shuffles the lines of the input
+Shuffle input lines.
 
-e.g. `ls | shuffle`
-
-### Install
+## Install
 
 ```bash
 gem install dorian-shuffle
 ```
 
-Or as part of my other gems:
+Also included in the aggregate gem:
 
 ```bash
 gem install dorian
 ```
 
-### Usage
-
-From my history:
+## Usage
 
 ```bash
-cat ~/ping-pong-members.txt | shuffle
-printf 'Dorian\nMadiha\nRémi\nRayane\nMélanie\nJade' | shuffle
+shuffle [line ...] [file ...]
+```
+
+Run `shuffle -h` for generated option details and `shuffle -v` for the installed version.
+
+## Notes
+
+- Reads from files, arguments, or stdin and prints shuffled stripped lines.
+
+## Examples
+
+### Shuffle names
+
+```bash
+printf 'Alice\nBob\nCarol\n' | shuffle
 ```
